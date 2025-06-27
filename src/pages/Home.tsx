@@ -125,18 +125,38 @@ export function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
+            {/* Replace with first 3 projects from Projects page */}
+            {[
+              {
+                title: "NexusFlow Management",
+                description: "A full-stack estate management solution with React frontend, Node.js backend, and supabase database. Features include user authentication, input integration, and admin dashboard. With integrated maps and detail view for properties as well as brief info of the property.",
+                image: "https://static.vecteezy.com/system/resources/previews/010/136/965/non_2x/real-estate-agents-or-brokers-use-smartphones-login-online-to-compare-internet-home-buying-and-selling-information-business-investment-through-residential-website-real-estate-choose-house-to-buy-free-photo.jpg",
+                technologies: ["React", "Node.js", "Supabase", "tailwind", "JWT"],
+              },
+              {
+                title: "NEO Tracker",
+                description: "Made with NASA API, featured in beautiful data visualizations and a bit of agent magic. Enjoy geolocation, forecasts.",
+                image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
+                technologies: ["Vue.js", "Chart.js", "HTML5", "NASA API", "CSS3", "JavaScript"],
+              },
+              {
+                title: "Smart Safety Helmet for Coal Miners",
+                description: "A smart safety helmet designed for coal miners, featuring real-time monitoring, communication tools, and safety alerts. IoT Based Project with 7 integrated sensors and a web application for data visualization.",
+                image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
+                technologies: ["Python", "Flask", "MongoDB", "IoT", "JavaScript", "HTML5", "CSS3"],
+              }
+            ].map((project, i) => (
               <div key={i} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="h-48 bg-gradient-to-br from-primary-400 to-accent-400"></div>
+                <div className="h-48 overflow-hidden">
+                  <img src={project.image} alt={project.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Project {i}</h3>
-                  <p className="text-gray-600 mb-4">
-                    A brief description of what this project does and the technologies used to build it.
-                  </p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
+                  <p className="text-gray-600 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-primary-100 text-primary-700 text-sm rounded-full">React</span>
-                    <span className="px-3 py-1 bg-accent-100 text-accent-700 text-sm rounded-full">TypeScript</span>
-                    <span className="px-3 py-1 bg-warm-100 text-warm-700 text-sm rounded-full">Tailwind</span>
+                    {project.technologies.map((tech) => (
+                      <span key={tech} className="px-3 py-1 bg-primary-100 text-primary-700 text-sm rounded-full">{tech}</span>
+                    ))}
                   </div>
                   <Link
                     to="/projects"

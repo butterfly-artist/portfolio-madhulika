@@ -151,8 +151,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email</h3>
-                    <a href="mailto:hello@thotamadhulika.com" className="text-primary-600 hover:text-primary-700">
-                      hello@thotamadhulika.com
+                    <a href="mailto:thota.madhulika05@gmail.com" className="text-primary-600 hover:text-primary-700">
+                      thota.madhulika05@gmail.com
                     </a>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Location</h3>
-                    <p className="text-gray-600">Based in India, Available Worldwide</p>
+                    <p className="text-gray-600">Based in India, Hyderabad</p>
                   </div>
                 </div>
 
@@ -183,7 +183,7 @@ export function Contact() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Connect With Me</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/butterfly-artist"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gray-100 hover:bg-gray-200 p-3 rounded-full transition-colors"
@@ -191,7 +191,7 @@ export function Contact() {
                     <Github className="h-6 w-6 text-gray-700" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/thota-madhulika-cs104/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-100 hover:bg-blue-200 p-3 rounded-full transition-colors"
@@ -214,7 +214,7 @@ export function Contact() {
                   Get a comprehensive overview of my skills, experience, and achievements.
                 </p>
                 <a
-                  href="/resume.pdf"
+                  href=""
                   download
                   className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-all duration-200 hover:shadow-lg"
                 >

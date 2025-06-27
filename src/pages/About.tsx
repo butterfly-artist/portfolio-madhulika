@@ -81,7 +81,7 @@ export function About() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Travel & Culture</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Solo traveled to 15+ countries</li>
+                <li>• Solo traveled to 50+ places</li>
                 <li>• Cultural adaptability & global perspective</li>
                 <li>• Photography & storytelling</li>
                 <li>• Problem-solving in unfamiliar environments</li>
@@ -118,8 +118,8 @@ export function About() {
                 <h3 className="text-lg font-semibold">Coffee Enthusiast</h3>
               </div>
               <p className="text-gray-700">
-                I've tried coffee from over 20 countries. Current favorite: 
-                Ethiopian single-origin with notes of dark chocolate.
+                I love to start my day with a good cup of coffee. 
+                It fuels my coding sessions and inspires my creativity.
               </p>
             </div>
 
@@ -129,8 +129,7 @@ export function About() {
                 <h3 className="text-lg font-semibold">Remote Work Pro</h3>
               </div>
               <p className="text-gray-700">
-                I've coded from cafes in Bali, hostels in Prague, and trains across Europe. 
-                WiFi quality is my primary travel criteria.
+                I've coded from dusk till dawn, embracing the beauty of different time zones.
               </p>
             </div>
 
@@ -151,8 +150,7 @@ export function About() {
                 <h3 className="text-lg font-semibold">Future Goals</h3>
               </div>
               <p className="text-gray-700">
-                Working on my next big project: a platform that helps remote workers 
-                find the perfect coding spots worldwide.
+                Working on my next big project: always keep pushing boundaries and exploring. Aiming for MNC collaborations.
               </p>
             </div>
           </div>
