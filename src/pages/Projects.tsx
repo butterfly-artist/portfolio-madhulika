@@ -15,12 +15,12 @@ export function Projects() {
     },
     {
       id: 2,
-      title: "Travel Blog Website",
-      description: "A responsive travel blog with CMS functionality, photo galleries, and interactive maps. Built with modern web technologies and optimized for performance.",
+      title: "Coffee shop Website",
+      description: "A responsive coffee shop website with CMS functionality, photo galleries, and interactive maps. Built with modern web technologies and optimized for performance.",
       image: "https://images.pexels.com/photos/1591047/pexels-photo-1591047.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Sanity CMS"],
-      github: "https://github.com",
-      live: "https://example.com",
+      github: "https://github.com/butterfly-artist/Basic-coffee-shop-website-using-HTML-CSS.git",
+      live: "https://butterfly-artist.github.io/Basic-coffee-shop-website-using-HTML-CSS/",
       category: "Frontend"
     },
     {
@@ -28,14 +28,13 @@ export function Projects() {
       title: "Smart Safety Helmet for Coal Miners",
       description: "A smart safety helmet designed for coal miners, featuring real-time monitoring, communication tools, and safety alerts. IoT Based Project with 7 integrated sensors and a web application for data visualization.",
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Python", "FastAPI", "PostgreSQL", "Docker", "pytest"],
-      github: "https://github.com",
-      live: "https://example.com",
-      category: "Backend"
+      technologies: ["Python", "Flask", "MongoDB", "IoT", "JavaScript", "HTML"],
+      github: "https://github.com/butterfly-artist/iotproject-smart-safety-helmet.git",
+      category: "IoT"
     },
     {
       id: 4,
-      title: "Weather Dashboard",
+      title: "",
       description: "Interactive weather dashboard with geolocation, forecasts, and beautiful data visualizations. Features dark/light themes and responsive design.",
       image: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Vue.js", "Chart.js", "OpenWeather API", "CSS3"],
@@ -49,19 +48,18 @@ export function Projects() {
       description: "This very website! A modern, responsive portfolio built with React and TypeScript, featuring smooth animations and thoughtful UX design.",
       image: "https://images.pexels.com/photos/196655/pexels-photo-196655.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-      github: "https://github.com",
-      live: "https://example.com",
+      github: "https://github.com/butterfly-artist/portfolio-madhulika.git",
+      live: "https://portfolio-thotamadhulika.netlify.app/",
       category: "Frontend"
     },
     {
       id: 6,
-      title: "Real-time Chat App",
-      description: "Full-stack chat application with real-time messaging, file sharing, and user presence indicators. Supports group chats and emoji reactions.",
+      title: "Quiz web application",
+      description: "Full-stack quiz application with real-time question updates,without any API integration, user friendly interface, and a responsive design.",
       image: "https://images.pexels.com/photos/267389/pexels-photo-267389.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Socket.io", "Node.js", "Express", "MongoDB"],
-      github: "https://github.com",
-      live: "https://example.com",
-      category: "Full-Stack"
+      technologies: ["Python", "NLTK", "Node.js", "HTML", "MongoDB"],
+      github: "https://github.com/butterfly-artist/Myquiz-web-application.git",
+      category: "Backend"
     }
   ];
 
