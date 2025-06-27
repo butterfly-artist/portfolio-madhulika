@@ -14,8 +14,8 @@ export function Home() {
                 Hi, I'm{' '}
                 <span className="text-primary-600">Thota Madhulika</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-600 mb-8">
-                Computer Science graduate, aspiring full-stack developer, and passionate solo traveler with an artistic soul.
+              <p className="text-xl md:text-2xl text-gray-600 mb-8">Aspiring software developer & full-stack developer | Passionate solo traveler and an artist.
+                
               </p>
               <p className="text-lg text-gray-500 mb-8">
                 I craft digital experiences with clean code and creative flair. 
