@@ -78,6 +78,40 @@ export function Home() {
         </div>
       </section>
 
+      {/* Quick Overview Sections */}
+      <section className="py-12 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* About Short */}
+          <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">About Me</h2>
+              <p className="text-gray-600 mb-4">Aspiring full-stack developer, creative soul, and solo traveler. I love building things and exploring new ideas.</p>
+            </div>
+            <Link to="/about" className="text-primary-600 hover:underline font-medium">Read More &rarr;</Link>
+          </div>
+          {/* Projects Short */}
+          <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">Projects</h2>
+              <p className="text-gray-600 mb-4">A selection of my favorite web development and design projects, built with React, TypeScript, and more.</p>
+            </div>
+            <Link to="/projects" className="text-primary-600 hover:underline font-medium">View Projects &rarr;</Link>
+          </div>
+          {/* Certificates Short */}
+          <div className="bg-white rounded-xl shadow p-6 flex flex-col justify-between">
+            <div>
+              <h2 className="text-xl font-bold text-gray-900 mb-2">Certificates</h2>
+              <ul className="text-gray-600 text-sm mb-4">
+                <li>Full Stack Web Development (Coursera)</li>
+                <li>UI/UX Design Specialization (Google)</li>
+                <li>React Advanced Concepts (Udemy)</li>
+              </ul>
+            </div>
+            <Link to="/certificates" className="text-primary-600 hover:underline font-medium">See All &rarr;</Link>
+          </div>
+        </div>
+      </section>
+
       {/* Featured Projects Section */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

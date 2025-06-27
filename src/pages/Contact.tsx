@@ -250,8 +250,8 @@ export function Contact() {
                 answer: "Yes! I'm open to freelance opportunities, especially for web development projects, UI/UX consulting, or technical writing. I prefer projects with clear scope and timelines."
               },
               {
-                question: "Do you work remotely?",
-                answer: "Absolutely! I have extensive experience working remotely from various locations. I'm comfortable with distributed teams and have excellent communication skills for remote collaboration."
+                question: "What are your hobbies outside of tech?",
+                answer: "I enjoy traveling solo, exploring new cultures, and capturing moments through photography. I'm also passionate about art, design, and occasionally dabble in creative writing."
               },
               {
                 question: "What's your preferred tech stack?",

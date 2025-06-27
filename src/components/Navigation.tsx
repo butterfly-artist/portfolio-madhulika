@@ -10,8 +10,7 @@ export function Navigation() {
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/projects', label: 'Projects' },
-    { path: '/experience', label: 'Experience' },
-    { path: '/blog', label: 'Blog' },
+    { path: '/certificates', label: 'Certificates' },
     { path: '/contact', label: 'Contact' },
   ];
 
