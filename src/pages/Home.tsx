@@ -18,9 +18,8 @@ export function Home() {
                 
               </p>
               <p className="text-lg text-gray-500 mb-8">
-                I craft digital experiences with clean code and creative flair. 
-                Currently seeking opportunities to make an impact in tech 
-                <span className="text-warm-600"> (and maybe visit a few more countries along the way)</span>.
+                I enjoy exploring new technologies, solving problems through code, 
+                and constantly challenging myself to grow.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
@@ -31,7 +30,7 @@ export function Home() {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <a
-                  href="/resume.pdf"
+                  href=""
                   download
                   className="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 font-medium rounded-lg hover:bg-primary-600 hover:text-white transition-all duration-200"
                 >
@@ -56,7 +55,7 @@ export function Home() {
                       <Globe className="h-8 w-8 text-accent-600" />
                     </div>
                     <h3 className="font-semibold text-gray-900">Solo Traveler</h3>
-                    <p className="text-sm text-gray-600">15+ countries explored</p>
+                    <p className="text-sm text-gray-600">50+ places explored</p>
                   </div>
                   <div className="text-center">
                     <div className="bg-warm-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
