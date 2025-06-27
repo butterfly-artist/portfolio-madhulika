@@ -5,12 +5,12 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, payment integration, and admin dashboard.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      github: "https://github.com",
-      live: "https://example.com",
+      title: "NexusFlow Management",
+      description: "A full-stack estate management solution with React frontend, Node.js backend, and supabase database. Features include user authentication, input integration, and admin dashboard. With integrated maps and detail view for properties as well as brief info of the property.",
+      image: "https://static.vecteezy.com/system/resources/previews/010/136/965/non_2x/real-estate-agents-or-brokers-use-smartphones-login-online-to-compare-internet-home-buying-and-selling-information-business-investment-through-residential-website-real-estate-choose-house-to-buy-free-photo.jpg",
+      technologies: ["React", "Node.js", "Supabase", "Stripe", "JWT"],
+      github: "https://github.com/butterfly-artist/Nexus-flow-hackthonProject.git",
+      live: "https://nexus-flow-hackthon-project.vercel.app/",
       category: "Full-Stack"
     },
     {
@@ -25,8 +25,8 @@ export function Projects() {
     },
     {
       id: 3,
-      title: "Task Management API",
-      description: "RESTful API for task management with user authentication, real-time updates, and comprehensive documentation. Includes automated testing and CI/CD pipeline.",
+      title: "Smart Safety Helmet for Coal Miners",
+      description: "A smart safety helmet designed for coal miners, featuring real-time monitoring, communication tools, and safety alerts. IoT Based Project with 7 integrated sensors and a web application for data visualization.",
       image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["Python", "FastAPI", "PostgreSQL", "Docker", "pytest"],
       github: "https://github.com",
@@ -65,13 +65,6 @@ export function Projects() {
     }
   ];
 
-  const categories = ["All", "Full-Stack", "Frontend", "Backend"];
-  const [selectedCategory, setSelectedCategory] = React.useState("All");
-
-  const filteredProjects = selectedCategory === "All" 
-    ? projects 
-    : projects.filter(project => project.category === selectedCategory);
-
   return (
     <div className="animate-fade-in">
       {/* Hero Section */}
@@ -89,34 +82,11 @@ export function Projects() {
         </div>
       </section>
 
-      {/* Filter Section */}
-      <section className="py-12 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-center">
-            <div className="flex flex-wrap gap-2">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setSelectedCategory(category)}
-                  className={`px-6 py-2 rounded-full font-medium transition-all duration-200 ${
-                    selectedCategory === category
-                      ? 'bg-primary-600 text-white shadow-lg'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Projects Grid */}
       <section className="pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredProjects.map((project) => (
+            {projects.map((project) => (
               <div
                 key={project.id}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2"

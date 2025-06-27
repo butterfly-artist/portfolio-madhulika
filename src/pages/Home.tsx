@@ -62,7 +62,7 @@ export function Home() {
                       <Palette className="h-8 w-8 text-warm-600" />
                     </div>
                     <h3 className="font-semibold text-gray-900">Creative Soul</h3>
-                    <p className="text-sm text-gray-600">Design & Art</p>
+                    <p className="text-sm text-gray-600">Art & Photography</p>
                   </div>
                   <div className="text-center">
                     <div className="bg-purple-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
