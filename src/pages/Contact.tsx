@@ -191,7 +191,7 @@ export function Contact() {
                     <Github className="h-6 w-6 text-gray-700" />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/thota-madhulika-cs104/"
+                    href="https://www.linkedin.com/in/thota-madhulika-875672374/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-100 hover:bg-blue-200 p-3 rounded-full transition-colors"
